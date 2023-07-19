@@ -4,13 +4,20 @@
     .nav-container{
         flex-direction:column;
     }
+    .logo-container{
+        flex-direction: column;
+    }
     .nav-items-container{
         flex-direction: column;
     }
     .nav-items-container a{
         margin-top: 10px;
     }
+    .banner-container{
+        flex-direction: column;
+    }
 }
+
     
     
 /* tablet or medium devices */
