@@ -141,8 +141,17 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     /* display: flex; */
     margin-left: 300px;
 }
-.playing-container img{
+.img-big{
     width: 630px;
+    /* position: relative; */
+    
+}
+.img-small{
+    width: 320px;
+    height: 365px;
+    position: relative;
+    bottom: 200px;
+    right: 300px;
     
 }
 /* styles of 3rd part:game-list-container */
