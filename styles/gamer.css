@@ -148,6 +148,28 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     width: 630px;
     
 }
+/* styles of 3rd part:game-list-container */
+.game-list-container{
+    max-width: 1400px;
+    margin: 50px auto 0;
+    text-align: center;
+    align-items: center;
+}
+.game-list-container img{
+    width: 60px;
+    height: 60px;
+}
+.game-list-1{
+    display:flex ;
+    align-items: center;
+}
+.game-list-2{
+    display: flex;
+    align-items: center;
+}
+.game-name{
+    display: flex;
+}
 
 /* .btn-blue{
     background: #4EC5F7;
