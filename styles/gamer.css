@@ -1,3 +1,60 @@
+ /* Work sans font family */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;500;600;700&display=swap');
+/* common shared style */
+*{
+    
+    /* margin: 0 auto; */
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Work Sans';
+}
+
 .nav-container{
-    border: 1px solid red;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #FFF;box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 2.75rem;
+    font-weight: 700;
+    
+}
+.logo-container img{
+    width: 70px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 20px;
+    align-items: center;
+    
+}
+.logo-container .logo-title{
+    width: 100px;
+}
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-items-container a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-items-container .follow-btn{
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10);
 }
