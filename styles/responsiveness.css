@@ -1,6 +1,9 @@
 /* * responsive media queries */ 
 /* mobile devices */
 @media screen and(max-width:576px){
+    .header{
+        padding: 20px;
+    }
     .nav-container{
         flex-direction:column;
     }
@@ -14,6 +17,12 @@
         margin-top: 10px;
     }
     .banner-container{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .card-img{
         flex-direction: column;
     }
 }

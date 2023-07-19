@@ -141,7 +141,9 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 /* 2nd part: playing container section styles */
 .playing-container{
     max-width: 1400px;
-    margin: 50px auto 300px 0;
+    /* margin: 50px auto 300px 0; */
+    margin-top: 50px;
+    margin-bottom: 0;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -165,8 +167,10 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
 /* styles of 3rd part:game-list-container */
 .game-list-container{
+    
     max-width: 1400px;
-    margin: 20px auto 0;
+    /* margin: 20px auto 0; */
+    margin-bottom: 50px;
     text-align: center;
     align-items: center;
 }
