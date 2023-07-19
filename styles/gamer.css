@@ -10,6 +10,7 @@
 body{
     font-family: 'Work Sans';
 }
+/* nav styles started */
 
 .nav-container{
    
@@ -58,3 +59,49 @@ body{
     border-radius: 5px;
     background: rgba(11, 2, 35, 0.10);
 }
+/* nav stles ends here */
+/* <---------------------------------> */
+/* started banner styles */
+.banner-container{
+    border: 5px solid red;
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+}
+.banner-content{
+    border: 1px solid green;
+    width: 50%;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0B0223;
+}
+.linear-text{
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner-img{
+    border: 1px solid blue;
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+.btn-primary{
+    padding: 20px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    border: 0;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFFFFF;
+}
+/* .btn-blue{
+    background: #4EC5F7;
+} */
