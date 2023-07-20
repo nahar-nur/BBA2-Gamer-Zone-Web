@@ -109,6 +109,7 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
 .btn-two{
     padding: 20px 40px;
+    margin-left: 10px;
     gap: 10px;
     border-radius: 48px;
     border: 0;
@@ -135,8 +136,9 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     margin-top: 10px;
     
 }
-.card-imgimg{
-    width: 30px;
+.card-img img{
+    width: 100%;
+    max-width: 340px;
     height: 400px;
 }
 /* 2nd part: playing container section styles */
@@ -154,50 +156,38 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     margin-left: 300px;
 }
 .img-big{
-    width: 630px;
+    width: 100%;
+    max-width: 600px;
     /* position: relative; */
     
 }
 .img-small{
-    width: 320px;
-    height: 365px;
+    width: 300px;
+    height: 300px;
     position: relative;
-    bottom: 200px;
-    right: 300px;
+    bottom: 150px;
+    right: 220px;
     
 }
 /* styles of 3rd part:game-list-container */
 .game-list-container{
     
     max-width: 1400px;
-    /* margin: 20px auto 0; */
+    width: 100%;
     margin-bottom: 50px;
    text-align: center;
     align-items: center;
-    
+    display: flex;
+    flex-wrap: wrap;
     
     justify-content: center;
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: center; */
+    
 }
 .game-list-container img{
     width: 60px;
     height: 60px;
 }
- .game-list-1{
-    display:flex ;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 50px;
-    
-}
-.game-list-2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-} 
+ 
 .game-name{
     display: flex;
     /* justify-content: space-between; */
@@ -220,7 +210,7 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 
 }
 .game-name:hover{
-    border: blue;
+    border: 1px solid  skyblue;
 }
 /* styles of end container */
 .end-container{
@@ -277,6 +267,4 @@ margin-top: 30px;
 
     
 
-/* .btn-blue{
-    background: #4EC5F7;
-} */
+

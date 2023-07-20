@@ -33,22 +33,24 @@
         width: 100%;
         max-width: 600px;
     }
-    .game-list-1{
+      /* .game-list-1{ */
         /* flex-direction: column; */
-        flex-wrap: wrap;
-    }
-    .game-list-2{
+        /* flex-wrap: wrap;
+    }  */
+     /* .game-list-2{ */
         /* flex-direction: column; */
+        /* flex-wrap: wrap;
+    }  */
+    .game-list-container{
         flex-wrap: wrap;
-    }
+        width: 80%;
+    } 
     .end-container{
         width: 100%;
         max-width: 600px;
     }
-    /* .game-list-container{
-        grid-template-columns: repeat(3,1fr);
-    } */
-}
+    
+    }
     
     
 /* tablet or medium devices */
@@ -60,5 +62,23 @@
         flex-direction: column;
 
 }
+.playing-container{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 600px;
     
+}
+.game-list-1{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.game-list-2{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.end-container{
+    width: 100%;
+    max-width: 600px;
+}
 }
