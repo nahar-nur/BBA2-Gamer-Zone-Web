@@ -1,7 +1,9 @@
 /* * responsive media queries */ 
 /* mobile devices */
-@media screen and(max-width:576px){
-    .header{
+@media screen and (max-width:576px){
+    *{margin-left: 0;
+    margin-right: 0;}
+    header{
         padding: 20px;
     }
     .nav-container{
@@ -28,9 +30,18 @@
     .playing-container{
         flex-direction: column;
     }
+    .game-list-1{
+        flex-direction: column;
+    }
+    .game-list-2{
+        flex-direction: column;
+    }
     .end-container{
         width: auto;
     }
+    /* .game-list-container{
+        grid-template-columns: repeat(3,1fr);
+    } */
 }
     
     
