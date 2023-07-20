@@ -28,16 +28,22 @@
     
     }
     .playing-container{
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 600px;
     }
     .game-list-1{
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
     }
     .game-list-2{
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
     }
     .end-container{
-        width: auto;
+        width: 100%;
+        max-width: 600px;
     }
     /* .game-list-container{
         grid-template-columns: repeat(3,1fr);
@@ -50,6 +56,9 @@
     .nav-items-container{
         flex-direction: column;
     }
+    .card-img{
+        flex-direction: column;
 
 }
     
+}
