@@ -7,9 +7,8 @@
     .nav-container{
         flex-direction:column;
     }
-    .logo-container{
-        flex-direction: column;
-    }
+    
+    
     .nav-items-container{
         flex-direction: column;
     }
@@ -17,16 +16,22 @@
         margin-top: 10px;
     }
     .banner-container{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .banner-container{
         flex-direction: column-reverse;
     }
     .card-img{
         flex-direction: column;
+    
+    }
+    .playing-container{
+        flex-direction: column;
+    }
+    .end-container{
+        width: auto;
     }
 }
-
     
     
 /* tablet or medium devices */
